@@ -4,7 +4,6 @@ import { Mongo } from 'meteor/mongo';
 export const Tasks = new Mongo.Collection('tasks');
 import '../imports/ui/scheduler/scheduler.js';
 import './main.html';
-import '../imports/ui/body.js';
 
 Router.route('/', {
   name: 'classes',
