@@ -44,32 +44,65 @@
 </template>
 
 <template name="classes">
-  <div class="ui grid">
-    <div class="five wide column"> <!-- left menu tabs -->
-      <div class="ui vertical teal inverted massive fluid tabular menu">
-        <a href="{{pathFor route='classes'}}">
-          <a class="active item">
-            Classes<i class="bars icon"></i>
+
+    <div class="ui grid">
+      <div class="five wide column"> <!-- left menu tabs -->
+        <div class="ui vertical teal inverted massive fluid tabular menu">
+          <a href="{{pathFor route='classes'}}">
+            <a class="active item">
+              Classes<i class="bars icon"></i>
+            </a>
           </a>
-        </a>
-        <a href="{{pathFor route='assignments'}}">
-          <a class="item">
-            Assignments<i class="file alternate outline icon"></i>
+          <a href="{{pathFor route='assignments'}}">
+            <a class="item">
+              Assignments<i class="file alternate outline icon"></i>
+            </a>
           </a>
-        </a>
-        <a href="{{pathFor route='calendar'}}">
-          <a class="item">
-            Calendar<i class="calendar icon"></i>
+          <a href="{{pathFor route='calendar'}}">
+            <a class="item">
+              Calendar<i class="calendar icon"></i>
+            </a>
           </a>
-        </a>
-        <a href="{{pathFor route='calculator'}}">
-          <a class="item">
-            Grade Calculator<i class="calculator icon"></i>
+          <a href="{{pathFor route='calculator'}}">
+            <a class="item">
+              Grade Calculator<i class="calculator icon"></i>
+            </a>
           </a>
-        </a>
+        </div>
+      </div>
+
+
+    <div class="ten wide stretched column"> <!-- Content goes here -->
+      <div class="ui segment">
+        <div class="ui grid">
+          <div class="four wide column"><h1>Classes</h1></div>
+          <div class="four wide column"></div>
+          <div class="four wide column"></div>
+          <div class="four wide column">
+            <div class="large ui green button"><i class="plus square icon"></i>Add A Class</div>
+          </div>
+        </div>
+
+        <div class="ui segment">
+          <div class="ui secondary menu">
+            <div class="left menu">
+              <h2>CS 320 - Fundamentals of Software Engineering</h2>
+            </div>
+            <div class="right menu">
+              <a href=""><i class="green large edit icon"></i></a>
+              <a href=""><i class="black large window close icon"></i></a>
+            </div>
+          </div>
+          <br> Zhao, Xinghui
+          <br>Tuesday, Thursday
+          <br>12pm-1:10pm
+        </div>
+
+
       </div>
     </div>
-  </div>
+    </div>  <!-- end of sidebar -->
+
 </template>
 
 <template name="assignments">
@@ -96,6 +129,45 @@
             Grade Calculator<i class="calculator icon"></i>
           </a>
         </a>
+      </div>
+    </div>
+    <div class="ten wide stretched column"> <!-- Content goes here -->
+      <div class="ui segment">
+        <div class="ui grid">
+          <div class="four wide column"><h1>Assignments</h1></div>
+          <div class="four wide column"></div>
+          <div class="four wide column"></div>
+          <div class="four wide column">
+            <div class="large ui green button"><i class="plus square icon"></i>Add An Assignment</div>
+          </div>
+        </div>
+
+        <div class="ui segment">
+          <div class="ui secondary menu">
+            <div class="left menu"> <!-- element -->
+              <h2>CS 320 -EXAM </h2>
+            </div>
+            <div class="right menu">
+              <a href=""><i class="green large edit icon"></i></a>
+              <a href=""><i class="black large window close icon"></i></a>
+            </div>
+          </div>
+          <br> Tuesday, November 12, 2019
+        </div>
+
+        <div class="ui segment">
+          <div class="ui secondary menu">
+            <div class="left menu"> <!-- element -->
+              <h2>CS 320 -ASSIGNMENT </h2>
+            </div>
+            <div class="right menu">
+              <a href=""><i class="green large edit icon"></i></a>
+              <a href=""><i class="black large window close icon"></i></a>
+            </div>
+          </div>
+          <br> Tuesday, November 12, 2019
+        </div>
+
       </div>
     </div>
   </div>
