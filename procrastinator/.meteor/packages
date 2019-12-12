@@ -25,3 +25,17 @@ runisland:static-assets
 accounts-password
 accounts-ui
 session
+
+kadira:flow-router
+kadira:blaze-layout
+aldeed:simple-schema
+erasaur:meteor-lodash
+stolinski:stylus-multi
+fortawesome:fontawesome
+spiderable
+fastclick
+raix:handlebar-helpers
+matb33:bootstrap-glyphicons
+msavin:jetsetter
+zimme:active-route
+gwendall:auth-client-callbacks
