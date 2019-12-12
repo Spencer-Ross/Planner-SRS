@@ -24,3 +24,4 @@ iron:router
 runisland:static-assets
 accounts-password
 accounts-ui
+session
