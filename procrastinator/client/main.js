@@ -24,3 +24,4 @@ Router.route('/calculator', {
   template: 'calculator'
 });
 
+UserAccounts = new Mongo.Collection('users');
