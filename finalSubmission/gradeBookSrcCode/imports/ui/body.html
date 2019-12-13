@@ -1,0 +1,19 @@
+<body>
+  {{> navbar}}
+
+  <div class="container">
+    <header>
+      <h1>Graded Work</h1>
+    </header>
+    <form class="new-assignment">
+      <input type="text" name="title" placeholder="Type Here..." />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <ul>
+      {{#each assignments}}
+        {{> assignment}}
+      {{/each}}
+    </ul>
+  </div>
+</body>
